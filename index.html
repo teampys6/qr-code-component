@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | QR code component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Outfit';
+      background-color: hsl(212, 45%, 89%);
+    }
+
+    .conteiner {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .title {
+      width: 400px;
+      height: 580px;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 20px;
+    }
+
+    img {
+      border-radius: 10px;
+      width: 360px;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+    
+    .text-title {
+      text-align: center;
+      font-size: 25px;
+      margin: 20px;
+      font-weight: 600;
+      color: hsl(218, 44%, 22%);
+    }
+
+    .text-paragraph {
+      text-align: center;
+      font-size: 15px;
+      font-weight: 600;
+      margin-top: 10px;
+      color: hsl(220, 15%, 55%);
+    }
+
+    @media (min-width: 319px) and (max-width: 480px) {
+      .conteiner {
+        align-content: center;
+        margin-top: 150px;
+        height: 100%;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="conteiner">
+    <div class="title">
+      <img src="./images/image-qr-code.png"/>
+      <div class="text-title">Improve your front-end skills <br/> by building projects</div>
+      <div class="text-paragraph">Scan the QR code to visit Frontend <br/> Mentor and take your coding skills to <br/> the next level</div>
+    </div>
+  </div> 
+</body>
+</html>
